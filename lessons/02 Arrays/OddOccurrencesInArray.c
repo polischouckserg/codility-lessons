@@ -8,8 +8,12 @@
 #include <stdlib.h>
 
 int solution(int A[], int N);
-//	Function get an array A consisting of N integers fulfilling the above conditions,
+//		Function get an array A consisting of N integers fulfilling the above conditions,
 //	returns the value of the unpaired element.
+//		Complexity:
+//	- Expected worst-case time complexity is O(N);
+//	- Expected worst-case space complexity is O(1), 
+//	  beyond input storage (not counting the storage required for input arguments).
 
 char *printableBinaryCodeOfNumber(int number);
 char *stringWithBinaryCodeFromNumber(int number);

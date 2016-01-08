@@ -7,8 +7,11 @@
 #include <stdio.h>
 
 int solution(int N);
-//	Function get a positive integer N and returns the length of its longest binary gap.
+//		Function get a positive integer N and returns the length of its longest binary gap.
 //	The function returns 0 if N doesn't contain a binary gap.
+//		Complexity:
+//	- Expected worst-case time complexity is O(log(N));
+//	- Expected worst-case space complexity is O(1).
 
 int power(int number, unsigned int power);
 void print_number_in_binary_code(int number);

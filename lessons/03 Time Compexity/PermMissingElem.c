@@ -6,8 +6,12 @@
 #include <stdio.h>
 
 int solution(int A[], int N);
-//	Function is given a zero-indexed array A and
+//		Function is given a zero-indexed array A and
 //	returns the value of the missing element.
+//		Complexity:
+//	- Expected worst-case time complexity is O(N);
+//	- Expected worst-case space complexity is O(1),
+//	  beyond input storage (not counting the storage required for input arguments).
 
 unsigned int sumNumericalSeriesFromZeroToOne(unsigned int n);
 

@@ -9,8 +9,11 @@
 #include <stdio.h>
 
 int solution(int X, int Y, int D);
-//	Function is given three integers X, Y and D, returns the minimal number of jumps
+//		Function is given three integers X, Y and D, returns the minimal number of jumps
 //  from position X to a position equal to or greater than Y.
+//		Complexity:
+//	- Expected worst-case time complexity is O(1);
+//	- Expected worst-case space complexity is O(1).
 
 int main()
 {

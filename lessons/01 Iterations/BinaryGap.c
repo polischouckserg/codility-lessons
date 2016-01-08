@@ -7,11 +7,11 @@
 #include <stdio.h>
 
 int solution(int N);
-int power(int number, unsigned int power);
-void print_number_in_binary_code(int number);
 //	Function get a positive integer N and returns the length of its longest binary gap.
 //	The function returns 0 if N doesn't contain a binary gap.
 
+int power(int number, unsigned int power);
+void print_number_in_binary_code(int number);
 
 int main()
 {
